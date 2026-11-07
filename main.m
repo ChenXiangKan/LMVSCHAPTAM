@@ -75,7 +75,7 @@ for para1 = para1_list
 
                 start_time = tic;
                     
-                [outB, outZ, outP, outA] = TAR_CMVSC2(X, inPara, k);
+                [outB, outZ, outP, outA] = LMVSCHAPTAM(X, inPara, k);
                 
                 for i = 1:ii                 
 
