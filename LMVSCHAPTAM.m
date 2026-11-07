@@ -1,4 +1,4 @@
-function [outJ, outZ, outP, outA] = TAR_CMVSC2(inData, inPara, k)
+function [outJ, outZ, outP, outA] = LMVSCHAPTAM(inData, inPara, k)
 
     inX = inData;
     numViews = length(inX);
